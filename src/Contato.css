@@ -1,0 +1,61 @@
+* {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+
+div .contato-container {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    background-color: #721582;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+section {
+    color: white;
+    background-color: #721582;
+    padding: 0px 85px 30px 85px;
+}
+
+section h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    margin: 35px 0px 15px 0px;
+}
+
+section p {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 0px 0px;
+}
+
+input {
+    height: 25px;
+    margin: 10px 0px 10px 0px;
+}
+
+textarea {
+    margin: 10px 0px 55px 0px;
+}
+
+form button {
+    color: white;
+    background: black;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+}
