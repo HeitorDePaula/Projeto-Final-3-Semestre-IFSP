@@ -3,21 +3,17 @@
 }
 
 div .contato-container {
-    padding: 0;
     box-sizing: border-box;
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
     background-color: #721582;
     display: flex;
     align-items: center;
     justify-content: center;
-
-}
-
-section {
     color: white;
-    background-color: #721582;
     padding: 0px 85px 30px 85px;
 }
+
+
 
 section h1 {
     display: flex;

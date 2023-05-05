@@ -1,0 +1,40 @@
+
+
+div .content-sob{
+    padding: 20px 85px 30px 85px;
+}
+
+div .container-sob {
+    display: flex;
+}
+
+div .container-sob img {
+    height: 650px;
+    width: 500px;
+}
+
+.chamariz  {
+ font-size: 100px;
+ margin: 0;
+ display: flex;
+ justify-content: center;
+ margin-bottom: 50px;
+}
+
+h1 {
+    color: white;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+p {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.alinh {
+    margin-left: 80px;
+    flex-direction: column;
+}
+
