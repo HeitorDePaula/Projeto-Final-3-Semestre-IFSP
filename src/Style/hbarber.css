@@ -1,0 +1,80 @@
+body{
+    background-color: #1E1E1E;
+    margin: 0;
+}
+button {
+    background-color: #F02F35;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 2rem;
+    
+}
+.Container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h2{
+    font-size: 5rem;
+    color: white;
+    font-family: sans-serif;
+}
+h3{
+    font-size: 3rem;
+    color: white;
+    font-family: sans-serif;
+}
+p{
+    color: white;
+    font-size: 1.4rem;
+    margin: 0;
+}
+.texto{
+    text-align: center;
+}
+div{
+    margin-top: 5rem;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+}
+.card1{
+    background-color: #343434;
+    width: 15rem;
+    height: 7rem;
+    margin: 0;
+}
+.card2{
+    background-color: #343434;
+    width: 15rem;
+    height: 7rem;
+    margin: 0;
+}
+.card3{
+    background-color: #343434;
+    width: 15rem;
+    height: 7rem;
+    margin: 0;
+}
+span{
+    color: #F02F35;
+}
+.hora{
+    font-size: 1.2rem;
+}
+.rec{
+    width: 8rem;
+    height: 2.2rem;
+    
+    background-color: #535353;
+    border-radius: 10px;
+    margin-top: 0px;
+}
+.aceitar{
+    display: flex;
+    justify-content: space-around;
+    margin: 0.9rem;
+
+}
