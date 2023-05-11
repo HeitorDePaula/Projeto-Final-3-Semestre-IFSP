@@ -1,5 +1,5 @@
 import Homi from '../img/homi.png'
-import '../Sobre.css'
+import '../Style/Sobre.css'
 
 
 function Sobre() {

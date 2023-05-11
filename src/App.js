@@ -1,17 +1,19 @@
-import './App.css';
-import './Footer.css';
+import './Style/App.css';
+import './Style/Footer.css';
 import Home from './Components/Home.js'
 import Footer from './Components/Footer.js'
 import Contato from './Components/Contato.js'
 import Sobre from './Components/Sobre.js'
+import Plan from './pages/PlanList'
 
 
 function App() {
   return (
    <div className="App">
       <Home />
-      <Contato />
       <Sobre />
+      <Plan />
+      <Contato />
       <Footer />
    </div>
   );

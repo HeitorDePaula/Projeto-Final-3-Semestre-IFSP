@@ -2,6 +2,7 @@
 
 div .content-sob{
     padding: 20px 85px 30px 85px;
+    background-color: #721582;
 }
 
 div .container-sob {
@@ -9,8 +10,8 @@ div .container-sob {
 }
 
 div .container-sob img {
-    height: 650px;
-    width: 500px;
+    height: auto;
+    max-width: 100%;
 }
 
 .chamariz  {
@@ -30,7 +31,7 @@ h1 {
 p {
     color: white;
     margin-bottom: 30px;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .alinh {
@@ -38,3 +39,8 @@ p {
     flex-direction: column;
 }
 
+@media (max-width: 1250px) {
+    .container-sob img {
+      display: none;
+    }
+  }

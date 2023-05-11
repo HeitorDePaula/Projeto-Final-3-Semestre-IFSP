@@ -76,6 +76,13 @@ nav {
   position: relative;
   display: flex;
   padding-top: 3rem;
+  justify-content: space-evenly;
+  margin-right: 50px;
+}
+
+.home-banner-container img {
+  max-width: 100%;
+  height: auto;
 }
 
 .home-text-section {
@@ -128,6 +135,7 @@ nav {
 }
 
 @media (max-width: 1250px) {
+
   .navbar-links-container a {
     margin-right: 1.4rem;
     font-size: 1.3rem;
@@ -149,6 +157,9 @@ nav {
   .home-bannerImage-container {
     max-width: 600px;
   }
+  .home-banner-container img {
+    display: none;
+  }  
 }
 @media (max-width: 800px) {
   .home-banner-container img {
@@ -164,8 +175,9 @@ nav {
     display: flex;
   }
   .home-bannerImage-container {
-    max-width: 450px;
+    max-width: 100%;
   }
+  
   .home-banner-container,
   .about-section-container {
     flex-direction: column-reverse;
