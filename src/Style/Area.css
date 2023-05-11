@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+
+* {
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.area-container {
+    box-sizing: border-box;
+    padding: 30px 85px 30px 85px;
+}
+
+.area-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.area-text {
+    font-size: 30px;
+    color: white;
+    margin: 1.5rem 0rem;
+}
+
+.area-text-section {
+    max-width: 750px;
+}
+
+.area-content {
+    display: flex;
+}
+
+.area-heading {
+    font-size: 50px;
+    color: white;
+}
+
+.area-title {
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    margin: 10px 0px 30px 0px;
+}
+
+.area-agenda {
+}
+
+#area-select {
+    max-width: 100%;
+    margin: 1.5em 0em 0em 0em;
+}
