@@ -4,7 +4,7 @@ import Home from './Components/Home.js'
 import Footer from './Components/Footer.js'
 import Contato from './Components/Contato.js'
 import Sobre from './Components/Sobre.js'
-import Plan from './pages/PlanList'
+import Plan from './Components/Plan.js'
 
 
 function App() {
