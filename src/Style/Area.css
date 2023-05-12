@@ -17,13 +17,15 @@
 }
 
 .area-text {
-    font-size: 30px;
+    font-size: 20px;
     color: white;
-    margin: 1.5rem 0rem;
+    margin: 0.5rem 0rem;
 }
 
 .area-text-section {
     max-width: 750px;
+    display: flex;
+    flex-direction: column;
 }
 
 .area-content {
@@ -43,9 +45,72 @@
 }
 
 .area-agenda {
+    max-width: 100%;
 }
 
 #area-select {
-    max-width: 100%;
+    width: 1000px;
+    height: 40px;
     margin: 1.5em 0em 0em 0em;
+    border-radius: 10px;
+}
+
+.area-p {
+    font-size: 20px;
+    margin: 20px 200px 10px 0px;
+}
+
+.area-flex {
+    display: flex;
+}
+
+#area-select2 {
+    width: 299px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.area-button2 {
+    width: 392px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.area-armazzen {
+    display: flex;
+    justify-content: space-between;
+}
+
+.area-p-armazzen {
+    margin: 45px 0px 15px 0px;
+}
+
+.area-p-armazzen2 {
+    margin: 0px;
+    font-size: 35px;
+}
+
+.area-card {
+  width: 320px;
+  height: 220px;
+  background-color: #1e1e1e;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: solid 2px #F02F35;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+a {
+    color: #F02F35;
+    font-size: 60px;
+}
+
+#img {
+    max-width: 100%;
+    width: 511px;
+    height: 322px
 }
