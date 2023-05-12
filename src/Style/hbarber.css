@@ -1,0 +1,145 @@
+body{
+    background-color: #1E1E1E;
+    margin: 0;
+}
+.int {
+    background-color: #F02F35;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 2rem ;
+    border: snow;
+    
+}
+.Container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h2{
+    font-size: 5rem;
+    color: white;
+    font-family: sans-serif;
+}
+h3{
+    font-size: 3rem;
+    color: white;
+    font-family: sans-serif;
+}
+p{
+    color: white;
+    font-size: 1.4rem;
+    margin: 0;
+}
+.texto{
+    text-align: center;
+}
+div{
+    margin-top: 5rem;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 ;
+}
+.card1{
+    background-color: #343434;
+    width: 15rem;
+    height: 7rem;
+    margin: 0;
+    padding: 3vh;
+    border-radius: 2rem;
+}
+.card2{
+    background-color: #343434;
+    width: 15rem;
+    height: 7rem;
+    margin: 0;
+    padding: 3vh;
+    border-radius: 2rem;
+}
+.card3{
+    background-color: #343434;
+    width: 15rem;
+    height: 7rem;
+    margin: 0;
+    padding: 3vh;
+    border-radius: 2rem;
+}
+span{
+    color: #F02F35;
+}
+.hora{
+    font-size: 1.2rem;
+}
+.rec{
+    width: 8rem;
+    height: 2.2rem;
+    background-color: #F02F35;
+    border-radius: 10px;
+    margin-top: 0px; 
+    border: 0;
+}
+.rec1{
+    width: 8rem;
+    height: 2.2rem;
+    background-color: #fce30a;
+    border-radius: 10px;
+    margin-top: 0px;
+    border: 0;
+    margin-left: inherit;
+}
+.aceitar{
+    display: flex;
+    justify-content: space-around;
+    margin: 0.9rem;
+}
+.reps{
+    display: none;
+}
+@media screen and (max-width: 769px) {
+    .cards {
+      flex-direction: column;
+    }
+    div{
+        align-items: center;
+        text-align: -webkit-center;
+    }
+    .int{
+        display: none;
+    }
+    .cards {
+        margin-left: 0;
+        align-items: center;
+        margin-bottom: 2rem;
+        gap: 2rem;
+    }
+    .reps{
+        background-color: #F02F35;
+        width: 15rem;
+        margin: 0;
+        margin-left: 0rem;
+        text-align: center;
+        height: 3rem;
+        border-radius: 7rem;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: center;
+    }
+    .card1{
+        padding: 3vh;
+        border-radius: 2rem;
+    }
+    .card2{
+        padding: 3vh;
+        border-radius: 2rem;
+    }
+    .card3{
+        padding: 3vh;
+        border-radius: 2rem;
+    }
+  }
+  
+  .preto{
+    color: black;
+  }
