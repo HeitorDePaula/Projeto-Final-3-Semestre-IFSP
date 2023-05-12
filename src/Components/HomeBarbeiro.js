@@ -10,14 +10,14 @@ const HomeBarbeiro = () =>{
         <div>
         <div className="Container">
             <img src={Logo} alt="" />
-            <button>Sair</button>
+            <button className="int">Sair</button>
         </div><br/>
         <div className="texto">
             <h2>Bem Vindo, <span>Gabriel!</span></h2>
         </div>
         <div className="Container">
             <h3>Meus Agendamentos:</h3>
-            <button>Agendar</button>
+            <button className="int">Agendar</button>
         </div>
         <div className="cards">
             <div className="card1">
@@ -25,7 +25,7 @@ const HomeBarbeiro = () =>{
                 <p className="hora">17/02 - 14:00 </p>
                 <div className="aceitar">
                     <button className="rec">Desitir</button>
-                    <button className="rec">Alterar Horatio</button>
+                    <button className="rec1">Alterar Horatio</button>
                 </div>
             </div>
             <div className="card2">
@@ -33,7 +33,7 @@ const HomeBarbeiro = () =>{
                  <p className="hora">17/02 - 14:00 </p>
                  <div className="aceitar">
                     <button className="rec">Desitir</button>
-                    <button className="rec">Alterar Horatio</button>
+                    <button className="rec1">Alterar Horatio</button>
                 </div>
             </div>
             <div className="card3">
@@ -41,10 +41,12 @@ const HomeBarbeiro = () =>{
                 <p className="hora">17/02 - 14:00 </p>
                 <div className="aceitar">
                     <button className="rec">Desitir</button>
-                    <button className="rec">Alterar Horatio</button>
+                    <button className="rec1">Alterar Horatio</button>
                 </div>
             </div>
         </div>
+        <button className="reps">Agendar</button>
+        <button className="reps">Sair</button>
         </div>
     )
 
