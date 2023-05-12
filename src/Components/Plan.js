@@ -1,36 +1,32 @@
 import React from 'react';
-import { Container, Row, Col, Button } from 'reactstrap';
-import '../Style/Plan.css';
+import Card from "@mui/material/Card";
+import CardActions from "@mui/material/CardActions";
+import CardContent from "@mui/material/CardContent";
+import CardMedia from "@mui/material/CardMedia";
+import Button from "@mui/material/Button";
+import Typography from "@mui/material/Typography";
+import '../Style/Plan.css'
 
-const Plan = ({ name, price, features, isRecommended }) => {
+const Plan = () => {
   return (
-    <Container className="plan-container">
-      <Row>
-        <Col>
-          <h3 className="plan-name">{name}</h3>
-        </Col><br/>
-        {isRecommended && (
-          <Col>
-            <div className="recommended">Recomendado</div>
-          </Col>
-        )}
-      </Row>
-      <Row>
-        <Col className="price">{price}</Col>
-      </Row>
-      {features.map((feature, index) => (
-        <Row key={index} className="feature">
-          <Col>{feature}</Col>
-        </Row>
-      ))}
-      <Row>
-        <Col>
-          <Button className="btn-block" color="success">
-            Selecionar
-          </Button>
-        </Col>
-      </Row>
-    </Container>
+    <section>
+      <h1> Planos</h1>
+  
+      <Card sx={{ maxWidth: 345, height: '500px'}}>
+        <CardContent sx={{ display: 'flex', flexDirection: 'column', height: '452px' }}>
+          <Typography gutterBottom variant="h3" component="div">
+            Plano Starter
+          </Typography>
+          <Typography variant="body2" color='black' sx={{ flex: '1 0 auto',  flexDirection:'column' }}>
+            <h3 className='preto'>POR APENAS:</h3>
+            <h1 className='preto'>99,00</h1>
+            Lizards are a widespread group of squamate reptiles, with over 6,000
+            species, ranging across all continents except Antarctica
+          </Typography>
+          <Button variant="contained" sx={{ width: "100%", backgroundColor: "#000000", "&:hover": { backgroundColor: "#000000" }  }}>Assinar</Button>
+        </CardContent>
+      </Card>
+    </section>
   );
 };
 

@@ -33,8 +33,10 @@ p {
 }
 
 .alinh {
-    margin-left: 80px;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
 @media (max-width: 1250px) {
