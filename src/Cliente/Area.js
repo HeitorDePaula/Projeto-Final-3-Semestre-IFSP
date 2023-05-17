@@ -7,7 +7,7 @@ const Area = () => {
         <div className="area-container">
             <div className='area-nav'>
                 <img src={logo2} width='100px' />
-                <button className="area-button">Area do Cliente</button>
+               <button className="area-button3"><a href='./HomeBarbeiro' className='a2'>Area do Cliente</a></button>
             </div>
             <h1 className='area-title'>Barbearia ArmazZém</h1>
             <div className='area-content'>

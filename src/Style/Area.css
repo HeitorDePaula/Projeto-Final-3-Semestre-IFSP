@@ -113,4 +113,16 @@ a {
     max-width: 100%;
     width: 511px;
     height: 322px
+
+}
+.area-button3{
+    width: 15rem;
+    border: #F02F35 solid 0.2rem;
+    background-color: #1e1e1e;
+    border-radius: 2rem;
+}
+.a2{
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
 }
