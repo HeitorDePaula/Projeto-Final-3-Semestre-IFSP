@@ -35,15 +35,19 @@ const Area = () => {
                     <div className='area-button'>
                         <div className='area-flex'>
                             <p className='area-p'>Data e Hora</p>
-                            <p className='area-p'>Preferencia de Funcionario</p>
-                        </div>
-
-                        <select id="area-select2">
+                            <select id="area-select2">
                             <option value="">Selecione uma Data</option>
-                        </select>
+                            </select>
+
+                        </div>
+                        <div className='area-flex'>
+                            <p className='area-p'>Preferencia de Funcionario</p>
                         <select id="area-select2">
                             <option value="">Selecione um Funcionario</option>
                         </select>
+                        </div>
+
+                       
                         <button className='area-button2'>Agendar</button>
                     </div>
 
