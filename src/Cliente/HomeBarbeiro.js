@@ -1,13 +1,8 @@
 import React from "react";
 import Logo from '../img/logo2.png';
 import '../Style/hbarber.css';
-import Calendario from '../Components/calendario'
-import Relogio from '../Components/Relogio'
-import Lixeira from "../Components/lixrira";
-
-
-
  
+
 const HomeBarbeiro = () =>{
     return(
         <div>

@@ -10,11 +10,20 @@ import Plan from './Components/Plan.js'
 function App() {
   return (
    <div className="App">
+<<<<<<< HEAD
        <Home />
       <Sobre />
       <Plan />
       <Contato />
       <Footer />
+=======
+    <Home />
+    <Sobre />
+    <Plan />
+    <Contato />
+    <Footer />
+    <Area />
+>>>>>>> 5f5b55318c7b2e93ef5bc1dd26d8fec8b7910d0d
    </div>
   );
 }
