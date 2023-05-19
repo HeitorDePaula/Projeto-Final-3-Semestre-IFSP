@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+}
+.container{
+   
+
+}
+input{
+    width: 15rem;
+}
+form{
+    width: 32rem;
+    height: 24rem;
+    background-color: #343434;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+h2{
+    border:#F02F35 0.5rem solid;
+    width: 2rem;
+    background-color: #F02F35;
+    color: black;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+}
