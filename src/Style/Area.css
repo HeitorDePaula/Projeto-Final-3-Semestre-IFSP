@@ -130,6 +130,9 @@ a {
     height: 322px
 
 }
+span{
+    color: #F02F35;
+}
 .area-button3{
     width: 15rem;
     border: #F02F35 solid 0.2rem;
@@ -145,7 +148,7 @@ a {
     display: flex;
     align-items: flex-end;
 }
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 1296px) {
     .area-content {
       flex-direction: column;
     }
@@ -181,9 +184,17 @@ a {
         flex-direction: column;
 
     }
-
+    .area-title{
+        display: flex;
+        
+        align-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size: 2rem;
+    }
     .area-button3{
         width: 16rem;
+        height: 4rem;
         border: #1e1e1e solid 0.2rem;
         background-color: #F02F35;
         border-radius: 0.6rem;

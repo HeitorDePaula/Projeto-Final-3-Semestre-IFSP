@@ -43,7 +43,7 @@ div{
 }
 .card1{
     background-color: #343434;
-    width: 15rem;
+    width: 20rem;
     height: 7rem;
     margin: 0;
     padding: 3vh;
@@ -51,7 +51,7 @@ div{
 }
 .card2{
     background-color: #343434;
-    width: 15rem;
+    width: 20rem;
     height: 7rem;
     margin: 0;
     padding: 3vh;
@@ -59,7 +59,7 @@ div{
 }
 .card3{
     background-color: #343434;
-    width: 15rem;
+    width: 20rem;
     height: 7rem;
     margin: 0;
     padding: 3vh;
@@ -74,18 +74,22 @@ span{
 .rec{
     width: 8rem;
     height: 2.2rem;
-    background-color: #F02F35;
+    background-color: #444444;
     border-radius: 10px;
     margin-top: 0px; 
     border: 0;
+    border: #F02F35 solid 0.2rem;
+    color: #fff;
 }
 .rec1{
     width: 8rem;
     height: 2.2rem;
-    background-color: #fce30a;
+    background-color: #444444;
     border-radius: 10px;
     margin-top: 0px;
     border: 0;
+    color: #fff;
+    border: #fbff3f solid 0.2rem;
     margin-left: inherit;
 }
 .aceitar{
@@ -122,8 +126,8 @@ span{
         height: 3rem;
         border-radius: 7rem;
         display: flex;
-        flex-direction: column;
-        align-items: stretch;
+        align-items: center;
+        flex-direction: row;
         justify-content: center;
     }
     .card1{
@@ -137,6 +141,11 @@ span{
     .card3{
         padding: 3vh;
         border-radius: 2rem;
+    }
+    h2{
+    font-size: 2rem;
+    color: white;
+    font-family: sans-serif;
     }
   }
   
