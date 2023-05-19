@@ -11,7 +11,12 @@ import Plan from './Components/Plan.js'
 function App() {
   return (
    <div className="App">
-      <Area />
+    <Home />
+    <Sobre />
+    <Plan />
+    <Contato />
+    <Footer />
+    <Area />
    </div>
   );
 }
