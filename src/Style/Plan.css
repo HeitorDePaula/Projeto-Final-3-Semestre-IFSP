@@ -1,68 +1,119 @@
-.plan-container {
-    background-color: #fff;
-    border-radius: 50px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    padding: 2rem;
-    margin: 2rem;
-  }
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans", sans-serif;
+	text-decoration: none;
+	list-style: none;
+}
+
+body
+{
+	background-color: #000000;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	 
+}
+
+.tabela-preco
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: min(1600px, 100%);
+	margin:  auto;
   
-  .plan-name {
-    margin-bottom: 0;
-  }
-  
-  .price {
-    font-size: 48px;
-    font-weight: bold;
-    margin: 20px 0;
-  }
-  
-  .feature {
-    margin: 10px 0;
-  }
-  h2{
-    color: #fff;
-    font-size: 50px;
-    margin: 35px 0px 15px 0px;
-  }
-  .recommended {
-    background-color: #1db954;
-    color: #fff;
-    padding: 5px 10px;
-    border-radius: 20px;
-    font-size: 12px;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-align: center;
-  }
-body{
-  background-color: #201f20;
-}
-.row{
-  display: flex;
-  text-align: center;
-  justify-content: space-around;
-  margin-bottom: 48px;
-}
-.titulo{
-  text-align: center;
-}
-.container{
-  align-items: center;
-
-}
-@media screen and (max-width: 720px) {
-  .row {
-    flex-direction: column;
-  }
-
-  .row {
-    margin-left: 0;
-    margin-bottom: 32px;
-  }
 }
 
-.preto{
-  color: black;
+.card-preco
+{
+	flex:1;
+	max-width: 360px;
+	background-color: #fff;
+	margin: 20px 10px;
+	text-align: center;
+	cursor: pointer;
+	overflow: hidden;
+	color: #2d2d2d;
+	transition: .3s linear;
+  border-radius: 10px;
+}
 
+.card-preco:hover .card-preco-header
+{
+	box-shadow: 0 0 0 26em #721582;
+
+}
+
+
+.card-preco-header
+{
+	background-color: #721582;
+	display: inline-block;
+	color: #fff;
+	padding: 12px 30px;
+	border-radius: 0 0 20px 20px;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 600;
+	transition: .4s line;
+}
+
+.preco
+{
+	font-size: 70px;
+	color: #721582;
+	margin: 40px 0;
+	transition: .2s linear;
+}
+
+
+.preco sup, .preco span
+{
+	font-size: 22px;
+	font-weight: 700;
+}
+
+.card-preco:hover, .card-preco:hover .preco
+{
+	color: #fff;
+}
+
+.card-preco li
+{
+	font-size: 16px;
+	padding: 10px 0;
+	text-transform: uppercase;
+}
+
+.btn
+{
+	display: inline-block;
+	margin-bottom: 40px;
+	margin-top: 80px;
+	border: 2px solid #721582;
+	color: #721582;
+	padding: 18px 40px;
+	border-radius:  8px;
+	text-transform:  uppercase;
+	font-weight: 500;
+	transition:  .3s linear;
+}
+
+.btn:hover
+{
+	background-color: #721582;
+	color: #fff; 
+}
+
+
+@media screen and (max-width: 1100px)
+{
+	.card-preco
+	{
+		flex: 50%;
+	}
 }
