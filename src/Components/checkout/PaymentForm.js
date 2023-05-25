@@ -16,6 +16,7 @@ export default function PaymentForm() {
           <TextField
             required
             id="cardName"
+            name="cname"
             label="Name on card"
             fullWidth
             autoComplete="cc-name"
@@ -26,6 +27,7 @@ export default function PaymentForm() {
           <TextField
             required
             id="cardNumber"
+            name="cNumber"
             label="Card number"
             fullWidth
             autoComplete="cc-number"
@@ -36,6 +38,7 @@ export default function PaymentForm() {
           <TextField
             required
             id="expDate"
+            name="cdate"
             label="Expiry date"
             fullWidth
             autoComplete="cc-exp"
@@ -46,6 +49,7 @@ export default function PaymentForm() {
           <TextField
             required
             id="cvv"
+            name="cvv"
             label="CVV"
             helperText="Last three digits on signature strip"
             fullWidth
