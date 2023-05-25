@@ -140,10 +140,13 @@ span{
     color: #F02F35;
 }
 .area-button3{
+    display: flex;
     width: 15rem;
     border: #F02F35 solid 0.2rem;
     background-color: #1e1e1e;
     border-radius: 2rem;
+    align-items: center;
+    justify-content: center;
 }
 .a2{
     font-size: 1.5rem;
