@@ -41,7 +41,7 @@ export default function AddressForm() {
             name="email"
             label="E-mail"
             fullWidth
-            autoComplete="shipping address-line1"
+            autoComplete="email"
             variant="standard"
           />
         </Grid>
