@@ -28,7 +28,7 @@ function Copyright() {
   );
 }
 
-const steps = ['Seus Dados', 'Payment details', 'Review your order'];
+const steps = ['Seus Dados', 'Cadastro Cartão', 'estilização do site'];
 
 function getStepContent(step) {
   switch (step) {

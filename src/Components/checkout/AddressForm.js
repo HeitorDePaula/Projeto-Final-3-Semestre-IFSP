@@ -19,7 +19,7 @@ export default function AddressForm() {
             name="Name"
             label="Nome Completo"
             fullWidth
-            autoComplete="given-name"
+            autoComplete="name"
             variant="standard"
           />
         </Grid>
@@ -30,7 +30,8 @@ export default function AddressForm() {
             name="cpf"
             label="CPF/CNPJ"
             fullWidth
-            autoComplete="family-name"
+            mask="000.000.000-00"
+            autoComplete=""
             variant="standard"
           />
         </Grid>
