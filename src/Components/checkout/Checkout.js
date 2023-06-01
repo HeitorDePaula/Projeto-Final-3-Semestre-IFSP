@@ -14,6 +14,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import AddressForm from './AddressForm';
 import PaymentForm from './PaymentForm';
 import Review from './Review';
+import './checkout.css'
 
 function Copyright() {
   return (
@@ -58,7 +59,7 @@ export default function Checkout() {
   };
 
   return (
-    <ThemeProvider theme={defaultTheme}>
+    <ThemeProvider  theme={defaultTheme}>
       <CssBaseline />
       <AppBar
         position="absolute"
