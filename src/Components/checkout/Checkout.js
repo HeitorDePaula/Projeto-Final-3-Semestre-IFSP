@@ -14,11 +14,12 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import AddressForm from './AddressForm';
 import PaymentForm from './PaymentForm';
 import Review from './Review';
-import './checkout.css'
+
+
 
 function Copyright() {
   return (
-    <Typography variant="body2" color="text.secondary" align="center">
+    <Typography variant="body2" color="text.primary" align="center">
       {'Copyright © '}
       <Link color="inherit" href="https://mui.com/">
         Your Website
@@ -29,7 +30,7 @@ function Copyright() {
   );
 }
 
-const steps = ['Seus Dados', 'Cadastro Cartão', 'estilização do site'];
+const steps = ['Seus Dados', 'Cadastro Cartão', 'Estilização do Site'];
 
 function getStepContent(step) {
   switch (step) {
@@ -59,7 +60,7 @@ export default function Checkout() {
   };
 
   return (
-    <ThemeProvider  theme={defaultTheme}>
+    <ThemeProvider theme={defaultTheme}>
       <CssBaseline />
       <AppBar
         position="absolute"

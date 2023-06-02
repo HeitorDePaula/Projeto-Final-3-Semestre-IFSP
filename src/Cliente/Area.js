@@ -28,12 +28,10 @@ const Area = () => {
                     <img id='img' src={Banner2}/>
                 </div>
                 <div className='area-agenda'>
-                    <h1><span><Seta/></span> Agenda</h1>
-                        <p className='area-p'>Unidade</p>
+                    <h1 className="area-heading"><span><Seta/></span> Agenda</h1>
                     <select id="area-select">
                         <option value="">Selecione á unidade</option>
                     </select>
-                        <p className='area-p'>Serviço</p>
                     <select id="area-select">
                         <option value="">Selecione o Serviço</option>
                     </select>
