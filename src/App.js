@@ -7,6 +7,7 @@ import Sobre from './Components/Sobre.js'
 import Plan from './Components/Plan.js'
 
 
+
 function App() {
   return (
    <div className="App">
@@ -15,7 +16,8 @@ function App() {
     <Plan />
     <Contato />
     <Footer />
-  
+
+    
    </div>
   );
 }

@@ -1,21 +1,11 @@
 
-*
-{
+*{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	font-family: "Open Sans", sans-serif;
 	text-decoration: none;
 	list-style: none;
-}
-
-body
-{
-	background-color: #000000;
-	min-height: 100vh;
-	display: flex;
-	align-items: center;
-	 
 }
 
 .tabela-preco
@@ -25,7 +15,7 @@ body
 	justify-content: space-around;
 	width: min(1600px, 100%);
 	margin:  auto;
-  
+	padding-bottom: 30px;
 }
 
 .card-preco

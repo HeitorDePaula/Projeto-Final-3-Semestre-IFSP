@@ -1,147 +1,89 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
-
-:root {
-    --color-neutral-0: #0e0c0c;
-    --color-neutral-10: #171717;
-    --color-neutral-30: #a8a29e;
-    --color-neutral-40: #f5f5f5;
-}
-
 footer {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    letter-spacing: 1px;
-    color: var(--color-neutral-40);
-}
-
-.footer-link {
-    text-decoration: none;
-    font-size: 35px;
-}
-
-#footer_content {
-    background-color: var(--color-neutral-10);
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 1.7rem 3.5rem;
-}
-
-#footer_contacts h1 {
-    margin-bottom: 0.75rem;
-}
-
-#footer_social_media {
     display: flex;
-    gap: 2rem;
-    margin-top: 1.5rem;
-} 
+    flex-wrap: wrap;
+    margin-top: auto;
+    background-color: #1e1e1e;
+    padding: 60px 10%;
+    line-height: 1.2;
+    }
 
-#footer_social_media .footer-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 2.5rem;
-    width: 2.5rem;
-    color: var(--color-neutral-40);
-    border-radius: 50%;
-    transition: all 0.4s;
-}
-
-#footer_social_media .footer-link i {
-    font-size: 1.25rem;    
-}
-
-#footer_social_media .footer-link:hover {
-    opacity: 0.8;
-}
-
-#instagram {
-    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
-}
-
-#facebook {
-    background-color: #4267b3;
-}
-
-#whatsapp {
-    background-color: #25d366;
-}
-
-.footer-list {
-    display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
+ul {
     list-style: none;
 }
 
-.footer-list .footer-link {
-    color: var(--color-neutral-30);
-    transition: all 0.4s;
+.footer-col{ 
+    width: 25%;
+
 }
 
-.footer-list .footer-link:hover {
-    color: #7f37c9;
+.footer-col h4{
+    position: relative;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 22px;
+    color: white;
+    text-transform: capitalize;
+    }
+
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0; 
+    bottom: -6px;
+    background-color: #27c0ac;
+    height: 2px;
+    width: 40px;
 }
 
-#footer_subscribe {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
+ul li:not(:last-child){ 
+    margin-bottom: 8px;
 }
 
-#footer_subscribe p {
-    color: var(--color-neutral-30);
+ul li a{
+    display: block;
+    font-size: 19px;
+    text-transform: capitalize;
+    color: #bdb6b6;
+    text-decoration: none; 
+    transition: 0.4s;
 }
 
-#input_group {
-    display: flex;
-    align-items: center;
-    background-color: var(--color-neutral-0);
-    border-radius: 4px;
+ul li a:hover{
+    color: white;
+    padding-left: 2px;
 }
 
-#input_group input {
-    all: unset;
-    padding: 0.75rem;
+.links a{
+    display: inline-block;
+    height: 44px;
+    width: 44px;
+    color: white;
+    background-color: rgba(40, 130, 214, 0.8);
+    margin: 0 8px 8px 0;
+    text-align: center;
+    line-height: 44px;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+.links a:hover{
+    color:
+    #4d4f55;
+    background-color: white;
+    }
+
+@media(max-width: 740px) {
+.footer-col{
+width: 50%; margin-bottom: 30px; text-align: center;
+}
+
+.footer-col h4::before{
+all: unset;
+}
+}
+
+@media(max-width: 555px){
+    .footer-col{
     width: 100%;
 }
-
-#input_group button {
-    background-color: #7f37c9;
-    border: none;
-    color: var(--color-neutral-40);
-    padding: 0px 1.25rem;
-    font-size: 1.125rem;
-    height: 100%;
-    border-radius: 0px 4px 4px 0px;
-    cursor: pointer;
-    transition: all 0.4s;
-}
-
-#input_group button:hover {
-    opacity: 0.8;
-}
-
-#footer_copyright {
-    display: flex;
-    justify-content: center;
-    background-color: var(--color-neutral-0);
-    font-size: 0.9rem;
-    padding: 1.5rem;
-    font-weight: 100;
-}
-
-@media screen and (max-width: 768px) {
-    #footer_content {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 2rem;
-    }
-}
-
-@media screen and (max-width: 426px) {
-    #footer_content {
-        grid-template-columns: repeat(1, 1fr);
-        padding: 3rem 2rem;
-    }
 }
