@@ -15,8 +15,6 @@ import AddressForm from './AddressForm';
 import PaymentForm from './PaymentForm';
 import Review from './Review';
 
-
-
 function Copyright() {
   return (
     <Typography variant="body2" color="text.primary" align="center">
@@ -45,8 +43,17 @@ function getStepContent(step) {
   }
 }
 
-// TODO remove, this demo shouldn't need to reset the theme.
-const defaultTheme = createTheme();
+const theme = createTheme({
+  palette: {
+    background: {
+      default: '#1e1e1e', // Set background color
+    },
+    text: {
+      primary: '#000', // Set text color
+    },
+    Cicle: '#721582',
+  },
+});
 
 export default function Checkout() {
   const [activeStep, setActiveStep] = React.useState(0);
@@ -60,7 +67,7 @@ export default function Checkout() {
   };
 
   return (
-    <ThemeProvider theme={defaultTheme}>
+    <ThemeProvider theme={theme}>
       <CssBaseline />
       <AppBar
         position="absolute"
@@ -104,7 +111,6 @@ export default function Checkout() {
                     Voltar
                   </Button>
                 )}
-
                 <Button
                   variant="contained"
                   onClick={handleNext}
