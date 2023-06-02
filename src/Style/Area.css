@@ -23,7 +23,7 @@ body{
 .area-text {
     font-size: 20px;
     color: white;
-    margin: 1.5rem 2rem;
+    margin: 1.5rem 0rem;
 }
 
 .area-text-section {
@@ -100,6 +100,7 @@ body{
 .area-armazzen {
     display: flex;
     justify-content: space-between;
+    gap: 2vh;
 }
 
 .area-p-armazzen {
@@ -108,7 +109,7 @@ body{
 
 .area-p-armazzen2 {
     margin: 0px;
-    font-size: x-large;
+    font-size: unset;
 }
 
 .area-card {
