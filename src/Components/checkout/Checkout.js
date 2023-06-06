@@ -46,12 +46,15 @@ function getStepContent(step) {
 const theme = createTheme({
   palette: {
     background: {
-      default: '#1e1e1e', // Set background color
+      default: '#1e1e1e',
     },
     text: {
-      primary: '#000', // Set text color
+      primary: '#000', 
     },
-    Cicle: '#721582',
+    primary: {
+      main: '#721582',
+    },
+
   },
 });
 
