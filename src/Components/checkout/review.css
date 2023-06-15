@@ -2,5 +2,9 @@ input {
     width: 8rem;
 }
 .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
-    color: #721582;
+    fill: #721582;
 }
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed {
+    fill: #721582;
+}
+

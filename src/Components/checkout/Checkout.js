@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Review from './Review';
 import CssBaseline from '@mui/material/CssBaseline';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -13,7 +14,6 @@ import Typography from '@mui/material/Typography';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import AddressForm from './AddressForm';
 import PaymentForm from './PaymentForm';
-import Review from './Review';
 
 function Copyright() {
   return (
@@ -54,6 +54,11 @@ const theme = createTheme({
     primary: {
       main: '#721582',
     },
+    
+    Container: {
+       main:'#757575', 
+    },
+    
 
   },
 });

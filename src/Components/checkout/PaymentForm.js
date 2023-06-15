@@ -6,7 +6,7 @@ import TextField from '@mui/material/TextField';
 
 export default function PaymentForm() {
   return (
-    <React.Fragment>
+    <React.Fragment >
       <Typography variant="h6" gutterBottom>
         Payment method
       </Typography>
