@@ -6,8 +6,6 @@ import Contato from '../Components/Contato.js'
 import Sobre from '../Components/Sobre.js'
 import Plan from '../Components/Plan.js'
 
-
-
 function App() {
   return (
    <div className="App">

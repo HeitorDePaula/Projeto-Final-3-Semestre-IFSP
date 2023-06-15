@@ -1,12 +1,13 @@
-import React from 'react';
-import Routes  from './Routes';
+import Router from './Routes'
+import PaginaInicial from './pages/PaginaInicial'
 
-
-
-function App() {
+const App = () => {
   return (
-    <Routes/>
-  );
+    <>
+    <PaginaInicial/>
+    <Router />
+    </>
+  )
 }
 
-export default App;
+export default App

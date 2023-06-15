@@ -1,22 +1,20 @@
 import React from "react";
-import {BrowserRouter, Switch, Route} from "react-router-dom";
+import {Route, Routes} from 'react-router-dom'
 
-import PaginaInit from './pages/PaginaInicial';
+import App from './pages/PaginaInicial';
 import Area from './Cliente/Area';
 import HomeBarbeiro from './Cliente/HomeBarbeiro';
 import Cadastro from './Components/checkout/Checkout';
 
-function Routes(){
+const Router = () => {
     return(
-        <BrowserRouter>
-            <Switch>
-                <Route path="/" exect component={ PaginaInit}/>
+        <Routes>
+               <Route path="/"component={App}/>
                 <Route path="/Area" component={Area}/>
                 <Route path="/HomeBarbeiro" component={HomeBarbeiro}/>
                 <Route path="/Cadastro" component={Cadastro}/>
-            </Switch>
-        </BrowserRouter>
+        </Routes>     
     );
 };
 
-export default Routes;
+export default Router;
