@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Logo from "../img/logo.png";
 import { HiOutlineBars3 } from "react-icons/hi2";
 import Box from "@mui/material/Box";
@@ -10,6 +11,7 @@ import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
+import Area from "../Cliente/Area";
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -49,9 +51,15 @@ const Navbar = () => {
             {item.text}
           </Link>
         ))}
-        <button className="primary-button" onClick={handleClientAreaClick}>
-          Area do Cliente
-        </button>
+       
+        <NavLink
+              className="primary-button"
+              activeClassName="is-active"
+              to="/area"
+              exact='true'
+          >
+            Area Cliente
+        </NavLink>
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />

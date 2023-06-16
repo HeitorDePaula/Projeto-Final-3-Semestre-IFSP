@@ -1,10 +1,10 @@
-import Router from './Routes'
-import PaginaInicial from './pages/PaginaInicial'
+
+import Router from './Router'
+
 
 const App = () => {
   return (
     <>
-    <PaginaInicial/>
     <Router />
     </>
   )

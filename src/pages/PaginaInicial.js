@@ -6,7 +6,7 @@ import Contato from '../Components/Contato.js'
 import Sobre from '../Components/Sobre.js'
 import Plan from '../Components/Plan.js'
 
-function App() {
+function PaginaInicial() {
   return (
    <div className="App">
     <Home />
@@ -18,4 +18,4 @@ function App() {
   );
 }
 
-export default App;
+export default PaginaInicial;
